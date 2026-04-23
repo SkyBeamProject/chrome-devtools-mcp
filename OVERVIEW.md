@@ -1,0 +1,3 @@
+# Overview
+
+A Model-Context-Protocol (MCP) server that gives AI coding agents (Claude, Gemini, Cursor, Copilot, etc.) control over a live Chrome browser via Chrome DevTools and Puppeteer. It surfaces performance tracing with actionable insights, network-request inspection, screenshots, source-mapped console diagnostics, and a reliable set of automation primitives (navigation, input, emulation, debugging). Ships via `npx chrome-devtools-mcp@latest`, supports connecting to an already-running Chrome via `--browserUrl` / `--wsEndpoint` / `--autoConnect`, and offers a trimmed `--slim` tool set for basic tasks.
